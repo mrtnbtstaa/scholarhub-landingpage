@@ -1,3 +1,4 @@
+import Footer from "@/components/layout/Footer/Footer";
 import Header from "@/components/layout/Header";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -5,6 +6,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <>
       <Header />
       <main className="flex">{children}</main>
+      <Footer />
     </>
   );
 };

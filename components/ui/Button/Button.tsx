@@ -14,10 +14,12 @@ const Button = ({
   ...props
 }: ButtonProps) => {
   return (
-    <button {...props} className={cn(className)}>
-      {
-        children
-      }
+    <button {...props} className={cn(
+      className,
+      "outline-none",
+      variants === "primary" && "bg-primary p-4 rounded-md text-white font-bold tracking-wide"
+    )}>
+      {children}
     </button>
   );
 };

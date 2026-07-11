@@ -14,8 +14,8 @@ const ServicesCard = ({icon: Icon, title, body} : ServicesProps) => {
             {Icon && <Icon className="text-2xl text-white" />}
         </div>
         <div>
-            {title && <h2 className="text-primary font-bold text-2xl tracking-wide">{title}</h2>}
-            {body && <p className="text-gray-500 tracking-wide md:text-lg text-md   ">{body}</p>}
+            {title && <h2 className="text-primary font-bold md:text-2xl text-lg tracking-wide">{title}</h2>}
+            {body && <p className="text-gray-500 tracking-wide md:text-lg text-sm">{body}</p>}
         </div>
       </Card>
     )

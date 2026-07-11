@@ -10,8 +10,8 @@ import ServicesCard from "../reusable/ServicesCard";
 
 const Services = () => {
   return (
-    <div className="mt-8 flex flex-col items-center">
-      <h2 className="lg:text-4xl md:text-3xl text-lg tracking-wide text-primary font-bold">
+    <div className="mt-16 flex flex-col items-center">
+      <h2 className="lg:text-4xl md:text-3xl text-2xl tracking-wide text-primary font-bold">
         Empowering Your Academic Journey
       </h2>
       <p className="tracking-wide text-gray-500 md:w-150 w-100 text-center md:text-lg text-md">
